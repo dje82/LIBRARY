@@ -19,4 +19,3 @@ function addBookToLibrary() {
   // do stuff here
   alert('coucou')
 }
-
