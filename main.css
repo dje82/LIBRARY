@@ -1,0 +1,30 @@
+body {
+    background: rgb(58,58,58);
+    color: wheat;
+}
+
+h1{
+    text-align: center;
+    font-size: 250%;
+    border: solid 2px wheat;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 50px;
+    background-color:grey;
+}
+h2{
+    margin: auto;
+}
+
+nav button{
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 40px;
+  font-size: large;
+  font-weight: bold;
+}
+
+nav button:active{
+  background-color: wheat;
+}
+
