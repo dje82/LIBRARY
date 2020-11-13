@@ -19,10 +19,26 @@
  <h1>YOUR LIBRARY</h1>
  <header>
     <nav>
-        <button id="addBook">Add a Book</button>
+        <button id="addBookFormBtn">Add a Book</button>
     </nav>
  </header>
  
+ <div class="form-popup" id="addBookForm">
+    <form>
+      <h2>Add a book</h2>
+      <input type="text" placeholder="Title" name="title" id="titleinput"><br>
+      <input type="text" placeholder="Author" name="author" id="authorinput"><br>
+      <input type="number" placeholder="nb Pg" name="nbPages" id="nbpageinput"><br>
+      <input type="checkbox" name="read" id="readinput"><br>
+    
+      <button type="submit" class="btnForm" id="btnAdd">Add</button>
+      <button type="button" class="btnForm" id="btnCancel">Close</button>
+    </form>
+
+    <div class="library">
+        <!-- create on div by book class="book" -->
+    </div>
+
 
     <script src="library.js"></script>
 </body>

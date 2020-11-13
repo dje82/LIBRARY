@@ -13,10 +13,11 @@ h1{
     background-color:grey;
 }
 h2{
-    margin: auto;
+  padding: 5px;  
+  margin: auto;
 }
 
-nav button{
+nav button, .btnForm {
   border-radius: 10px;
   padding: 5px;
   margin-left: 40px;
@@ -26,4 +27,39 @@ nav button{
 
 nav button:active{
   background-color: wheat;
+}
+
+.form-popup{
+  display: none;
+  margin: 20px auto;
+  width: 250px;
+  height: auto;
+  border: 2px solid wheat;
+  border-radius: 20px
+  
+}
+
+.form-popup input{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#btnAdd{
+  background-color:green;
+}
+
+#btnCancel{
+  background-color: red;
+}
+
+.library{
+  display: flex;
+  border: 2px solid red;
+}
+
+.book{
+  border: 2px solid orange;
+  flex-wrap: wrap;
+
 }
